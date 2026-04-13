@@ -855,6 +855,321 @@
         "visual-node"
       ],
       "identifier": "dbhdol"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#ApplicationProfile",
+      "position": {
+        "x": 2730,
+        "y": 1670,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "8w943"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#PropertyValueReuse",
+      "position": {
+        "x": 1160,
+        "y": 720,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "9qcmj"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#reusedAsProperty",
+      "waypoints": [],
+      "visualSource": "9qcmj",
+      "visualTarget": "tx73sf",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "0vpjw"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#reusedProperty",
+      "waypoints": [],
+      "visualSource": "9qcmj",
+      "visualTarget": "tx73sf",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "kbnur"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#TermProfile",
+      "position": {
+        "x": 910,
+        "y": -260,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "mi6bh"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#specializes",
+      "waypoints": [
+        {
+          "x": 790,
+          "y": -250,
+          "anchored": null
+        },
+        {
+          "x": 790,
+          "y": -210,
+          "anchored": null
+        }
+      ],
+      "visualSource": "mi6bh",
+      "visualTarget": "mi6bh",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "2kslt"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#reusesPropertyValue",
+      "waypoints": [],
+      "visualSource": "mi6bh",
+      "visualTarget": "9qcmj",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "z5r15"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#profileOf",
+      "waypoints": [
+        {
+          "x": 790,
+          "y": -250,
+          "anchored": null
+        },
+        {
+          "x": 790,
+          "y": -210,
+          "anchored": null
+        }
+      ],
+      "visualSource": "mi6bh",
+      "visualTarget": "mi6bh",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "8tmza"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#ClassProfile",
+      "position": {
+        "x": 450,
+        "y": -320,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "gn518"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ClassProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile",
+      "waypoints": [],
+      "visualSource": "gn518",
+      "visualTarget": "mi6bh",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "hrfv1"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#ObjectPropertyProfile",
+      "position": {
+        "x": 1210,
+        "y": -370,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "bvagb"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#range",
+      "waypoints": [],
+      "visualSource": "bvagb",
+      "visualTarget": "gn518",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "3kizy"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#DatatypePropertyProfile",
+      "position": {
+        "x": 1860,
+        "y": 500,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "7b7cml"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#InvalidTermProfile",
+      "position": {
+        "x": 780,
+        "y": -950,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "wj6pa"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23InvalidTermProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile",
+      "waypoints": [],
+      "visualSource": "wj6pa",
+      "visualTarget": "mi6bh",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "y5pej"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#PropertyProfile",
+      "position": {
+        "x": 960,
+        "y": 260,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "hvjfj"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile",
+      "waypoints": [],
+      "visualSource": "hvjfj",
+      "visualTarget": "mi6bh",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "ofv16g"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23DatatypePropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile",
+      "waypoints": [],
+      "visualSource": "7b7cml",
+      "visualTarget": "hvjfj",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "jr4mg"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ObjectPropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile",
+      "waypoints": [],
+      "visualSource": "bvagb",
+      "visualTarget": "hvjfj",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "jbml7"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#domain",
+      "waypoints": [],
+      "visualSource": "hvjfj",
+      "visualTarget": "gn518",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "vyl7d"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#property",
+      "waypoints": [],
+      "visualSource": "hvjfj",
+      "visualTarget": "tx73sf",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "wkmzy"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
+      "position": {
+        "x": 0,
+        "y": 1850,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "wuotz"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/ad639da6-0bd5-4713-aef7-6dc03159e0d3/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#VocabularySpecificationDocument",
+      "position": {
+        "x": 3270,
+        "y": 1670,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "rponl"
     }
   ]
 }
